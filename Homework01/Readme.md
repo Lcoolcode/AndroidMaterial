@@ -1,5 +1,6 @@
-# 2024/5/11 作业三
+# 2024/5/11 作业一
 
+**实验目标**
 1. 引入 Lottie 库实现简单的图标动画
     1. 在 activity_main.xml 中添加 `LottieAnimationView`。
     2. 在 `SeekBar` 的回调中修改 `LottieAnimationView` 的进度。
@@ -21,6 +22,6 @@
 
     3. 对于好友列表 `Fragment`，使用 Lottie 实现 Loading 效果，在 5s 后展示实际的列表，要求这里的动效是淡入淡出
 
-**演示效果**
+**实验结果展示**
 
 <div align=center><img src="video/Screen.gif" width=300/></div>
