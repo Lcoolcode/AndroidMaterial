@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <Button
+        android:id="@+id/btn_create_or_open_db"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:onClick="doCreateOrOpenDB"
+        android:text="@string/create_or_open_db"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/btn_create_table"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:onClick="doCreateTable"
+        android:text="@string/create_table"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/btnAddRecord"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:onClick="doAddRecord"
+        android:text="@string/add_record"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/btn_update_record"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:onClick="doUpdateRecord"
+        android:text="@string/update_record"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/btn_display_all_records"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:onClick="doDisplayAllRecords"
+        android:text="@string/display_all_records"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/btn_delete_all_records"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:onClick="doDeleteAllRecords"
+        android:text="@string/delete_all_records"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/btn_delete_table"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:onClick="doDeleteTable"
+        android:text="@string/delete_table"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/btn_delete_db"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:onClick="doDeleteDB"
+        android:text="@string/delete_db"
+        android:textSize="20sp" />
+</LinearLayout>

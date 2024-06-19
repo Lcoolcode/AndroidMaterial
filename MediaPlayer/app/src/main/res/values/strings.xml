@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MediaPlayer</string>
+    <string name="title_activity_local_music">LocalMusicActivity</string>
+    <string name="recent_play">最近播放</string>
+    <string name="collect">我的收藏</string>
+    <string name="local">本地音乐</string>
+    <string name="have_play">已播歌曲</string>
+    <string name="create_or_open_db">创建或打开数据库</string>
+    <string name="create_table">创建表</string>
+    <string name="add_record">添加表记录</string>
+    <string name="update_record">更新表记录</string>
+    <string name="display_all_records">显示全部表记录</string>
+    <string name="delete_all_records">删除全部表记录</string>
+    <string name="delete_table">删除表</string>
+    <string name="delete_db">删除数据库</string>
+    <string name="btn_all">全部</string>
+    <string name="btn_male">男歌手</string>
+    <string name="btn_female">女歌手</string>
+</resources>

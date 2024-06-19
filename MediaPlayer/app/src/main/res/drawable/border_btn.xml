@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false" >
+        <shape android:shape="rectangle">
+            <stroke android:width="1px" android:color="@color/center_color" />
+            <corners android:radius="50dp" />
+            <solid android:color="@color/main_page" />
+        </shape>
+    </item>
+    <!-- 按钮未被按下时的背景 -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <stroke android:width="1px" android:color="@color/green" />
+            <corners android:radius="50dp" />
+            <solid android:color="@color/center_color" /> <!-- 非按下时的颜色 -->
+        </shape>
+    </item>
+</selector>

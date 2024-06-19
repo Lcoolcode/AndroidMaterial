@@ -14,7 +14,12 @@ import androidx.fragment.app.Fragment;
 
 import com.airbnb.lottie.LottieAnimationView;
 
-public class PlaceholderFragment extends Fragment {
+public class
+
+
+
+
+PlaceholderFragment extends Fragment {
 
 
     private ListView listView;

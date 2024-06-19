@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SingerActivity">
+    <ImageView
+        android:id="@+id/singer_main"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@drawable/music"
+        android:scaleType="centerCrop"/>
+
+    <com.example.mediaplayer.view.StickNavLayout
+        android:id="@+id/id_stickynavlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:fillViewport="true">
+        <com.example.mediaplayer.view.SimpleViewPagerIndicator
+            android:id="@+id/id_stickynavlayout_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="400dp"
+            android:background="@android:color/white">
+        </com.example.mediaplayer.view.SimpleViewPagerIndicator>
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/id_stickynavlayout_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toEndOf="@id/id_stickynavlayout_indicator"
+            android:layout_toRightOf="@id/id_stickynavlayout_indicator">
+        </androidx.viewpager.widget.ViewPager>
+
+    </com.example.mediaplayer.view.StickNavLayout>
+
+
+</RelativeLayout>
